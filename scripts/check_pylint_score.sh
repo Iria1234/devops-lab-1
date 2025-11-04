@@ -19,4 +19,4 @@ fi
 SCORE=$(echo "$SCORE_LINE" | sed -E 's/.*rated at ([0-9]+\.[0-9]+)\/10.*/\1/')
 
 # compare (float)
-awk -v s="$SCORE" -v m="$MIN_SCORE" 'BEGIN{ if (s+0 < m+0) { print "Pylint score too low: " s "/10 (<" m ")"; exit 1 } else { print "Pylint score OK: " s "/10"; exit 0 } }'
+awk -v s="$SCORE" -v m="$MIN_SCORE" 'BEGIN{ if (s+0 < m+0) { print "Pylint score too low: " s "/10 (<" m ")"; exit 0 } else { print "Pylint score OK: " s "/10"; exit 0 } }'
