@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Runnerlab2",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus4.actions.githubusercontent.com/FzT9tvW8XRgHpC3hgckU1DjyYNAJLBTAIhLuMqrkUl0IrbEQp1/",
+  "gitHubUrl": "https://github.com/Iria1234/devops-lab-1",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
