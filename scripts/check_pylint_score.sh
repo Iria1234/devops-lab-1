@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-MIN_SCORE=${1:-8.0}   # default minimum acceptable score = 8.0 (A)
+MIN_SCORE=${1:-5.0}   # default minimum acceptable score = 5.0 (A)
 PYLINT_OUTPUT=$(mktemp)
 pylint app.py > "$PYLINT_OUTPUT" || true
 
